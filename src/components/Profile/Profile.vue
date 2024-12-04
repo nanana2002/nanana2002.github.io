@@ -19,7 +19,7 @@
           </div>
         </summary>
         <div class="avatar-container">
-          <img class="avatar" src="https://avatars.githubusercontent.com/u/58540850?v=4" alt="avatar" />
+          <img class="avatar" src="https://avatars.githubusercontent.com/u/98224910?v=4" alt="avatar" />
         </div>
         <div class="profile-content">
           <h2>YAO LI</h2>
@@ -28,14 +28,14 @@
           <div class="social-links">
             <div class="social-group">
 
-              <a href="https://bh3gei.github.io/liyao" target="_blank" class="social-link">
+              <a href="https://nanana2002.github.io/daiyn" target="_blank" class="social-link">
                 <span class="icon">
                   <font-awesome-icon :icon="['fas', 'user']" />
                 </span>
                 <span class="text">About</span>
               </a>
 
-              <a href="https://github.com/bh3gei" target="_blank" class="social-link">
+              <a href="https://github.com/daiyn" target="_blank" class="social-link">
                 <span class="icon">
                   <font-awesome-icon :icon="['fab', 'github']" />
                 </span>
@@ -52,7 +52,7 @@
             </div>
             <div class="social-group">
 
-              <a href="mailto:scholar.liyao@gmail.com" 
+              <a href="mailto:daiyn2002@outlook.com" 
                 class="social-link" 
                 @click.prevent="handleEmailClick" 
                 ref="emailLink"
@@ -93,7 +93,7 @@
                 <span class="text">WeChat</span>
               </a>
 
-              <a href="https://t.me/yao_luv_cs" target="_blank" class="social-link">
+              <a href="https://t.me/nana02999" target="_blank" class="social-link">
                 <span class="icon">
                   <font-awesome-icon :icon="['fab', 'telegram']" />
                 </span>
@@ -229,14 +229,14 @@ export default {
 
     const handleBlogChoice = (choice) => {
       if (choice === 'new') {
-        window.open('https://blog.stratosphericus.workers.dev', '_blank')
+        window.open('https://blog.nanana20029999.workers.dev', '_blank')
       } else {
         emit('open-blog')
       }
     }
 
     const handleEmailClick = () => {
-      const email = 'scholar.liyao@gmail.com'
+      const email = 'daiyn2002@outlook.com'
       navigator.clipboard.writeText(email).then(() => {
         tooltipText.value = 'Copied!'
         setTimeout(() => {
@@ -256,13 +256,13 @@ export default {
       let url = ''
       switch(choice) {
         case 'en':
-          url = 'https://github.com/BH3GEI/Resume/blob/main/Resume.pdf'
+          url = 'https://github.com/nanana2002/Resume/blob/main/Resume.pdf'
           break
         case 'jp':
-          url = 'https://github.com/BH3GEI/Resume/blob/main/Resume_JP.pdf'
+          url = 'https://github.com/nanana2002/Resume/blob/main/Resume_JP.pdf'
           break
         case 'cn':
-          url = 'https://github.com/BH3GEI/Resume/blob/main/Resume_CN.pdf'
+          url = 'https://github.com/nanana2002/Resume/blob/main/Resume_CN.pdf'
           break
       }
       if (url) {
@@ -285,7 +285,7 @@ export default {
       checkMobile();
       window.addEventListener('resize', checkMobile);
       try {
-        const response = await fetch('https://raw.githubusercontent.com/BH3GEI/Resume/main/README.md')
+        const response = await fetch('https://raw.githubusercontent.com/nanana2002/Resume/main/README.md')
         const text = await response.text()
         readmeContent.value = marked(text)
       } catch (error) {

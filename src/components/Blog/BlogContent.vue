@@ -36,7 +36,7 @@ import { ref, onMounted, computed, nextTick } from 'vue'
 import showdown from 'showdown'
 import hljs from 'highlight.js'
 
-const GITHUB_BASE = "BH3GEI/blog"
+const GITHUB_BASE = "nanana2002/blog"
 const POSTS_PER_PAGE = 12
 
 export default {
@@ -84,7 +84,7 @@ export default {
 
     const currentPostUrl = computed(() => {
       if (!currentPost.value) return ''
-      return `https://blog.stratosphericus.workers.dev/${encodeURIComponent(
+      return `https://blog.nanana20029999.workers.dev/${encodeURIComponent(
         currentPost.value.file.replace(/posts\//g, '').replace(/\.md/g, '')
       )}`
     })

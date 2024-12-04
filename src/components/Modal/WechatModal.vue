@@ -12,7 +12,7 @@
         <div class="qr-container">
           <img :src="qrCodeUrl" alt="WeChat QR Code" class="qr-code" />
         </div>
-        <p class="wechat-id">WeChat ID: LY-BH3GEI</p>
+        <p class="wechat-id">WeChat ID: N2198986009</p>
         <div class="note">
           Scan QR code or search ID to add me on WeChat
         </div>
@@ -26,7 +26,7 @@ export default {
   name: 'WechatModal',
   emits: ['close'],
   setup() {
-    const qrCodeUrl = 'https://github.com/BH3GEI/Resume/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241201051627.png?raw=true'
+    const qrCodeUrl = 'https://raw.githubusercontent.com/nanana2002/Resume/refs/heads/main/wechat.png'
     return {
       qrCodeUrl
     }
