@@ -36,4 +36,4 @@ app.component('font-awesome-icon', FontAwesomeIcon)
 app.mount('#app')
 
 // Set page title
-document.title = "Yao's Space"
+document.title = "YINA's Space"

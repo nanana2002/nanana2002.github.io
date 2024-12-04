@@ -22,7 +22,7 @@
           <img class="avatar" src="https://avatars.githubusercontent.com/u/98224910?v=4" alt="avatar" />
         </div>
         <div class="profile-content">
-          <h2>YAO LI</h2>
+          <h2>Yina Dai</h2>
           <div class="readme-content" v-html="readmeContent"></div>
           <!-- <p class="welcome">Welcome to my space!</p> -->
           <div class="social-links">
